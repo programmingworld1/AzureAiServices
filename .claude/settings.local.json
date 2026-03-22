@@ -4,7 +4,11 @@
       "Bash(python -m venv .venv)",
       "Bash(.venv/Scripts/python main.py)",
       "Bash(.venv/Scripts/pip install:*)",
-      "Bash(.venv/Scripts/python.exe main.py)"
+      "Bash(.venv/Scripts/python.exe main.py)",
+      "Bash(pip install:*)",
+      "Bash(.venv/Scripts/python -m pip install azure-ai-vision-face)",
+      "Bash(.venv/Scripts/python faceAnalysis.py)",
+      "Bash(.venv/Scripts/python -m pip install azure-cognitiveservices-vision-customvision msrest)"
     ]
   }
 }
